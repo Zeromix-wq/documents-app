@@ -174,7 +174,7 @@ public class MainApp extends JFrame {
             return;
         }
 
-        // Отдельное окно просмотра как на примере
+        // Отдельное окно просмотра
         JFrame viewFrame = new JFrame(selected.getTypeName());
         viewFrame.setSize(400, 300);
         viewFrame.setLayout(new BorderLayout());
